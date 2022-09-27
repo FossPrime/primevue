@@ -2,7 +2,9 @@ node_modules
 public
 /dist
 exports
-src
+/src/views
+/src/service
+/src/assets
 tests
 .browserslistrc
 .eslintrc.js
