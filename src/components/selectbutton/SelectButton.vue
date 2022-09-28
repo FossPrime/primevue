@@ -13,7 +13,7 @@
 
 <script>
 import ObjectUtils from '../utils/ObjectUtils.js';
-import Ripple from '../ripple/Ripple.vue';
+import Ripple from '../ripple/Ripple.js';
 
 export default {
     props: {

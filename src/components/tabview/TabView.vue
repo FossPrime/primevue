@@ -28,7 +28,7 @@
 <script>
 import DomHandler from '../utils/DomHandler.js';
 import ObjectUtils from '../utils/ObjectUtils.js';
-import Ripple from '../ripple/Ripple.vue';
+import Ripple from '../ripple/Ripple.js';
 
 const TabPanelHeaderSlot = {
     functional: true,

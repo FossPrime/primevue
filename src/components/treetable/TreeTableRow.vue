@@ -22,7 +22,7 @@
 import ObjectUtils from '../utils/ObjectUtils.js';
 import DomHandler from '../utils/DomHandler.js';
 import TreeTableColumnSlot from './TreeTableColumnSlot.vue';
-import Ripple from '../ripple/Ripple.vue';
+import Ripple from '../ripple/Ripple.js';
 
 export default {
     name: 'sub-ttnode',

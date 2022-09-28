@@ -28,7 +28,7 @@ import UniqueComponentId from '../utils/UniqueComponentId.js';
 import GalleriaItem from './GalleriaItem.vue';
 import GalleriaThumbnails from './GalleriaThumbnails.vue';
 import GalleriaItemSlot from './GalleriaItemSlot.vue';
-import Ripple from '../ripple/Ripple.vue';
+import Ripple from '../ripple/Ripple.js';
 
 export default {
     inheritAttrs: false,

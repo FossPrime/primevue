@@ -34,7 +34,7 @@ import ObjectUtils from '../utils/ObjectUtils.js';
 import DomHandler from '../utils/DomHandler.js';
 import Button from '../button/Button.vue';
 import UniqueComponentId from '../utils/UniqueComponentId.js';
-import Ripple from '../ripple/Ripple.vue';
+import Ripple from '../ripple/Ripple.js';
 
 export default {
     inheritAttrs: false,

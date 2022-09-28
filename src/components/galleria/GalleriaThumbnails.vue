@@ -28,7 +28,7 @@
 <script>
 import GalleriaItemSlot from './GalleriaItemSlot.vue';
 import DomHandler from '../utils/DomHandler.js';
-import Ripple from '../ripple/Ripple.vue';
+import Ripple from '../ripple/Ripple.js';
 
 export default {
     props: {

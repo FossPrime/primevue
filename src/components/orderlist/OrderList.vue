@@ -29,7 +29,7 @@
 import Button from '../button/Button.vue';
 import ObjectUtils from '../utils/ObjectUtils.js';
 import DomHandler from '../utils/DomHandler.js';
-import Ripple from '../ripple/Ripple.vue';
+import Ripple from '../ripple/Ripple.js';
 
 export default {
     props: {

@@ -145,7 +145,7 @@ import UniqueComponentId from '../utils/UniqueComponentId.js';
 import InputText from '../inputtext/InputText.vue';
 import Button from '../button/Button.vue';
 import DomHandler from '../utils/DomHandler.js';
-import Ripple from '../ripple/Ripple.vue';
+import Ripple from '../ripple/Ripple.js';
 
 export default {
     inheritAttrs: false,

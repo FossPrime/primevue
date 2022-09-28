@@ -17,7 +17,7 @@
 </template>
 
 <script>
-import Ripple from '../ripple/Ripple.vue';
+import Ripple from '../ripple/Ripple.js';
 
 const ToastMessageTemplate = {
     functional: true,

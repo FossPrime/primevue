@@ -24,7 +24,7 @@
 
 <script>
 import Button from '../button/Button.vue';
-import Ripple from '../ripple/Ripple.vue';
+import Ripple from '../ripple/Ripple.js';
 import DomHandler from '../utils/DomHandler.js';
 export default {
     name: 'SpeedDial',

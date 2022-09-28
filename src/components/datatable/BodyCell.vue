@@ -38,7 +38,7 @@ import ObjectUtils from '../utils/ObjectUtils.js';
 import ColumnSlot from './ColumnSlot.vue';
 import RowRadioButton from './RowRadioButton.vue';
 import RowCheckbox from './RowCheckbox.vue';
-import Ripple from '../ripple/Ripple.vue';
+import Ripple from '../ripple/Ripple.js';
 
 export default {
     props: {

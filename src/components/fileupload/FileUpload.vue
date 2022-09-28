@@ -44,7 +44,7 @@ import Button from '../button/Button.vue';
 import ProgressBar from '../progressbar/ProgressBar.vue';
 import Message from '../message/Message.vue';
 import DomHandler from '../utils/DomHandler.js';
-import Ripple from '../ripple/Ripple.vue';
+import Ripple from '../ripple/Ripple.js';
 
 export default {
     props: {
