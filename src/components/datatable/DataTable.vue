@@ -66,12 +66,12 @@
 </template>
 
 <script>
-import ObjectUtils from '../utils/ObjectUtils';
-import DomHandler from '../utils/DomHandler';
-import UniqueComponentId from '../utils/UniqueComponentId';
-import FilterMatchMode from '../api/FilterMatchMode';
-import FilterOperator from '../api/FilterOperator';
-import FilterService from '../api/FilterService';
+import ObjectUtils from '../utils/ObjectUtils.js';
+import DomHandler from '../utils/DomHandler.js';
+import UniqueComponentId from '../utils/UniqueComponentId.js';
+import FilterMatchMode from '../api/FilterMatchMode.vue';
+import FilterOperator from '../api/FilterOperator.vue';
+import FilterService from '../api/FilterService.vue';
 import Paginator from '../paginator/Paginator.vue';
 import TableHeader from './TableHeader.vue';
 import TableBody from './TableBody.vue';

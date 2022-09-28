@@ -18,7 +18,7 @@
 </template>
 
 <script>
-import ObjectUtils from '../utils/ObjectUtils';
+import ObjectUtils from '../utils/ObjectUtils.js';
 
 export default {
     props: {

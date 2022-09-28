@@ -23,8 +23,8 @@
 </template>
 
 <script>
-import UniqueComponentId from '../utils/UniqueComponentId';
-import Ripple from '../ripple/Ripple';
+import UniqueComponentId from '../utils/UniqueComponentId.js';
+import Ripple from '../ripple/Ripple.vue';
 
 export default {
     props: {

@@ -20,7 +20,7 @@
 </template>
 
 <script>
-import UniqueComponentId from '../utils/UniqueComponentId';
+import UniqueComponentId from '../utils/UniqueComponentId.js';
 
 export default {
     props: {

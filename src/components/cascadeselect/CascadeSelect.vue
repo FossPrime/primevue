@@ -28,9 +28,9 @@
 </template>
 
 <script>
-import ConnectedOverlayScrollHandler from '../utils/ConnectedOverlayScrollHandler';
-import ObjectUtils from '../utils/ObjectUtils';
-import DomHandler from '../utils/DomHandler';
+import ConnectedOverlayScrollHandler from '../utils/ConnectedOverlayScrollHandler.js';
+import ObjectUtils from '../utils/ObjectUtils.js';
+import DomHandler from '../utils/DomHandler.js';
 import CascadeSelectSub from './CascadeSelectSub.vue';
 
 export default {

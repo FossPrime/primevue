@@ -140,12 +140,12 @@
 </template>
 
 <script>
-import ConnectedOverlayScrollHandler from '../utils/ConnectedOverlayScrollHandler';
-import UniqueComponentId from '../utils/UniqueComponentId';
-import InputText from '../inputtext/InputText';
-import Button from '../button/Button';
-import DomHandler from '../utils/DomHandler';
-import Ripple from '../ripple/Ripple';
+import ConnectedOverlayScrollHandler from '../utils/ConnectedOverlayScrollHandler.js';
+import UniqueComponentId from '../utils/UniqueComponentId.js';
+import InputText from '../inputtext/InputText.vue';
+import Button from '../button/Button.vue';
+import DomHandler from '../utils/DomHandler.js';
+import Ripple from '../ripple/Ripple.vue';
 
 export default {
     inheritAttrs: false,

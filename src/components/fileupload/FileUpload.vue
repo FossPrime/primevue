@@ -40,11 +40,11 @@
 </template>
 
 <script>
-import Button from '../button/Button';
-import ProgressBar from '../progressbar/ProgressBar';
-import Message from '../message/Message';
-import DomHandler from '../utils/DomHandler';
-import Ripple from '../ripple/Ripple';
+import Button from '../button/Button.vue';
+import ProgressBar from '../progressbar/ProgressBar.vue';
+import Message from '../message/Message.vue';
+import DomHandler from '../utils/DomHandler.js';
+import Ripple from '../ripple/Ripple.vue';
 
 export default {
     props: {

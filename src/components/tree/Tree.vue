@@ -20,7 +20,7 @@
 
 <script>
 import TreeNode from './TreeNode.vue';
-import ObjectUtils from '../utils/ObjectUtils';
+import ObjectUtils from '../utils/ObjectUtils.js';
 
 export default {
     props: {

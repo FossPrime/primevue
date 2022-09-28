@@ -1,5 +1,5 @@
-import DomHandler from '../utils/DomHandler';
-import UniqueComponentId from '../utils/UniqueComponentId';
+import DomHandler from '../utils/DomHandler.js';
+import UniqueComponentId from '../utils/UniqueComponentId.js';
 
 const BadgeDirective = {
     inserted(el, binding) {

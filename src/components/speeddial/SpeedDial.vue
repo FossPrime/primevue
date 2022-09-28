@@ -23,9 +23,9 @@
 </template>
 
 <script>
-import Button from '../button/Button';
-import Ripple from '../ripple/Ripple';
-import DomHandler from '../utils/DomHandler';
+import Button from '../button/Button.vue';
+import Ripple from '../ripple/Ripple.vue';
+import DomHandler from '../utils/DomHandler.js';
 export default {
     name: 'SpeedDial',
     props: {

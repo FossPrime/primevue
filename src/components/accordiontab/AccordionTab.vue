@@ -19,8 +19,8 @@
 </template>
 
 <script>
-import UniqueComponentId from '../utils/UniqueComponentId';
-import DomHandler from '../utils/DomHandler';
+import UniqueComponentId from '../utils/UniqueComponentId.js';
+import DomHandler from '../utils/DomHandler.js';
 
 export default {
     props: {

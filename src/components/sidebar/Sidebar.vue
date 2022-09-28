@@ -14,8 +14,8 @@
 </template>
 
 <script>
-import DomHandler from '../utils/DomHandler';
-import Ripple from '../ripple/Ripple';
+import DomHandler from '../utils/DomHandler.js';
+import Ripple from '../ripple/Ripple.vue';
 
 export default {
     props: {

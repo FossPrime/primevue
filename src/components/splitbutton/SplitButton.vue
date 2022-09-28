@@ -9,9 +9,9 @@
 </template>
 
 <script>
-import Button from '../button/Button';
-import Menu from '../menu/Menu';
-import UniqueComponentId from '../utils/UniqueComponentId';
+import Button from '../button/Button.vue';
+import Menu from '../menu/Menu.vue';
+import UniqueComponentId from '../utils/UniqueComponentId.js';
 
 export default {
     props: {

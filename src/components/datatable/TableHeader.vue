@@ -51,8 +51,8 @@
 import HeaderCell from './HeaderCell.vue';
 import HeaderCheckbox from './HeaderCheckbox.vue';
 import ColumnFilter from './ColumnFilter.vue';
-import ObjectUtils from '../utils/ObjectUtils';
-import UniqueComponentId from '../utils/UniqueComponentId';
+import ObjectUtils from '../utils/ObjectUtils.js';
+import UniqueComponentId from '../utils/UniqueComponentId.js';
 
 export default {
     props: {

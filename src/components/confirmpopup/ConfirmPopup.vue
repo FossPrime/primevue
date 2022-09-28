@@ -17,10 +17,10 @@
 </template>
 
 <script>
-import ConfirmationEventBus from '../confirmationeventbus/ConfirmationEventBus';
-import ConnectedOverlayScrollHandler from '../utils/ConnectedOverlayScrollHandler';
-import DomHandler from '../utils/DomHandler';
-import Button from '../button/Button';
+import ConfirmationEventBus from '../confirmationeventbus/ConfirmationEventBus.vue';
+import ConnectedOverlayScrollHandler from '../utils/ConnectedOverlayScrollHandler.js';
+import DomHandler from '../utils/DomHandler.js';
+import Button from '../button/Button.vue';
 
 export default {
     props: {

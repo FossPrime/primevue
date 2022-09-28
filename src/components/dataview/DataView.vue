@@ -40,7 +40,7 @@
 	</div>
 </template>
 <script>
-import ObjectUtils from '../utils/ObjectUtils';
+import ObjectUtils from '../utils/ObjectUtils.js';
 import Paginator from '../paginator/Paginator.vue';
 
 export default {

@@ -12,8 +12,8 @@
 </template>
 
 <script>
-import ObjectUtils from '../utils/ObjectUtils';
-import Ripple from '../ripple/Ripple';
+import ObjectUtils from '../utils/ObjectUtils.js';
+import Ripple from '../ripple/Ripple.vue';
 
 export default {
     props: {

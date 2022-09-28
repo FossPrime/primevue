@@ -7,8 +7,8 @@
 </template>
 
 <script>
-import ConnectedOverlayScrollHandler from '../utils/ConnectedOverlayScrollHandler';
-import DomHandler from '../utils/DomHandler';
+import ConnectedOverlayScrollHandler from '../utils/ConnectedOverlayScrollHandler.js';
+import DomHandler from '../utils/DomHandler.js';
 import TieredMenuSub from './TieredMenuSub.vue';
 
 export default {

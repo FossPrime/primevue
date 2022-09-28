@@ -1,4 +1,4 @@
-import ObjectUtils from '../utils/ObjectUtils';
+import ObjectUtils from '../utils/ObjectUtils.js';
 
 const FilterService = {
     filter(value, fields, filterValue, filterMatchMode, filterLocale) {

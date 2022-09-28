@@ -45,8 +45,8 @@
 </template>
 
 <script>
-import DomHandler from '../utils/DomHandler';
-import ObjectUtils from '../utils/ObjectUtils';
+import DomHandler from '../utils/DomHandler.js';
+import ObjectUtils from '../utils/ObjectUtils.js';
 import BodyCell from './BodyCell.vue';
 
 const RowExpansionTemplate = {

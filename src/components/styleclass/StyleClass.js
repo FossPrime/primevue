@@ -1,4 +1,4 @@
-import DomHandler from '../utils/DomHandler';
+import DomHandler from '../utils/DomHandler.js';
 
 function bind(el, binding) {
     el.$_pstyleclass_clicklistener = () => {

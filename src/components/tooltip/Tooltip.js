@@ -1,6 +1,6 @@
-import UniqueComponentId from '../utils/UniqueComponentId';
-import DomHandler from '../utils/DomHandler';
-import ConnectedOverlayScrollHandler from '../utils/ConnectedOverlayScrollHandler';
+import UniqueComponentId from '../utils/UniqueComponentId.js';
+import DomHandler from '../utils/DomHandler.js';
+import ConnectedOverlayScrollHandler from '../utils/ConnectedOverlayScrollHandler.js';
 
 function bindEvents(el) {
     const modifiers = el.$_ptooltipModifiers;

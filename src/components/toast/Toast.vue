@@ -7,10 +7,10 @@
 </template>
 
 <script>
-import ToastEventBus from '../toastservice/ToastEventBus';
+import ToastEventBus from '../toastservice/ToastEventBus.js';
 import ToastMessage from './ToastMessage.vue';
-import DomHandler from '../utils/DomHandler';
-import UniqueComponentId from '../utils/UniqueComponentId';
+import DomHandler from '../utils/DomHandler.js';
+import UniqueComponentId from '../utils/UniqueComponentId.js';
 
 var messageIdx = 0;
 

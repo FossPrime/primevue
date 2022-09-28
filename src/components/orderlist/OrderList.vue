@@ -26,10 +26,10 @@
 </template>
 
 <script>
-import Button from '../button/Button';
-import ObjectUtils from '../utils/ObjectUtils';
-import DomHandler from '../utils/DomHandler';
-import Ripple from '../ripple/Ripple';
+import Button from '../button/Button.vue';
+import ObjectUtils from '../utils/ObjectUtils.js';
+import DomHandler from '../utils/DomHandler.js';
+import Ripple from '../ripple/Ripple.vue';
 
 export default {
     props: {

@@ -8,8 +8,8 @@
 
 <script>
 import ColumnSlot from './ColumnSlot.vue';
-import DomHandler from '../utils/DomHandler';
-import ObjectUtils from '../utils/ObjectUtils';
+import DomHandler from '../utils/DomHandler.js';
+import ObjectUtils from '../utils/ObjectUtils.js';
 
 export default {
     props: {

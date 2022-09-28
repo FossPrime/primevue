@@ -4,7 +4,7 @@
 </template>
 
 <script>
-import Dropdown from '../dropdown/Dropdown';
+import Dropdown from '../dropdown/Dropdown.vue';
 
 export default {
     inheritAttrs: false,

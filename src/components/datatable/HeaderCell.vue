@@ -23,8 +23,8 @@
 </template>
 
 <script>
-import DomHandler from '../utils/DomHandler';
-import ObjectUtils from '../utils/ObjectUtils';
+import DomHandler from '../utils/DomHandler.js';
+import ObjectUtils from '../utils/ObjectUtils.js';
 import ColumnSlot from './ColumnSlot.vue';
 import HeaderCheckbox from './HeaderCheckbox.vue';
 import ColumnFilter from './ColumnFilter.vue';

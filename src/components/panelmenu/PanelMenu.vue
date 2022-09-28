@@ -31,7 +31,7 @@
 
 <script>
 import PanelMenuSub from './PanelMenuSub.vue';
-import UniqueComponentId from '../utils/UniqueComponentId';
+import UniqueComponentId from '../utils/UniqueComponentId.js';
 
 export default {
     props: {

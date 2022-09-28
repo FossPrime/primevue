@@ -56,12 +56,12 @@
 </template>
 
 <script>
-import DomHandler from '../utils/DomHandler';
-import ConnectedOverlayScrollHandler from '../utils/ConnectedOverlayScrollHandler';
-import OverlayEventBus from '../overlayeventbus/OverlayEventBus';
-import FilterOperator from '../api/FilterOperator';
-import Dropdown from '../dropdown/Dropdown';
-import Button from '../button/Button';
+import DomHandler from '../utils/DomHandler.js';
+import ConnectedOverlayScrollHandler from '../utils/ConnectedOverlayScrollHandler.js';
+import OverlayEventBus from '../overlayeventbus/OverlayEventBus.vue';
+import FilterOperator from '../api/FilterOperator.vue';
+import Dropdown from '../dropdown/Dropdown.vue';
+import Button from '../button/Button.vue';
 
 const ColumnFilterTemplate = {
     functional: true,

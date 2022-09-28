@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import Ripple from '../ripple/Ripple';
+import Ripple from '../ripple/Ripple.vue';
 
 export default {
     computed: {

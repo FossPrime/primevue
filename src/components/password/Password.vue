@@ -18,9 +18,9 @@
 </template>
 
 <script>
-import ConnectedOverlayScrollHandler from '../utils/ConnectedOverlayScrollHandler';
-import DomHandler from '../utils/DomHandler';
-import InputText from '../inputtext/InputText';
+import ConnectedOverlayScrollHandler from '../utils/ConnectedOverlayScrollHandler.js';
+import DomHandler from '../utils/DomHandler.js';
+import InputText from '../inputtext/InputText.vue';
 
 export default {
     props: {

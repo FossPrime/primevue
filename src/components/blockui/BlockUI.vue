@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import DomHandler from '../utils/DomHandler';
+import DomHandler from '../utils/DomHandler.js';
 
 export default {
     props: {

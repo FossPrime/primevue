@@ -26,9 +26,9 @@
     </div>
 </template>
 <script>
-import UniqueComponentId from '../utils/UniqueComponentId';
-import DomHandler from '../utils/DomHandler';
-import Ripple from '../ripple/Ripple';
+import UniqueComponentId from '../utils/UniqueComponentId.js';
+import DomHandler from '../utils/DomHandler.js';
+import Ripple from '../ripple/Ripple.vue';
 
 export default {
     inheritAttrs: false,

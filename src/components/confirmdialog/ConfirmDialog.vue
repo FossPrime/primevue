@@ -10,10 +10,10 @@
 </template>
 
 <script>
-import ConfirmationEventBus from '../confirmationeventbus/ConfirmationEventBus';
-import Dialog from '../dialog/Dialog';
-import Button from '../button/Button';
-import DomHandler from '../utils/DomHandler';
+import ConfirmationEventBus from '../confirmationeventbus/ConfirmationEventBus.vue';
+import Dialog from '../dialog/Dialog.vue';
+import Button from '../button/Button.vue';
+import DomHandler from '../utils/DomHandler.js';
 export default {
     props: {
         group: String

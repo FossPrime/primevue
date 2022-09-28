@@ -19,10 +19,10 @@
 </template>
 
 <script>
-import ObjectUtils from '../utils/ObjectUtils';
-import DomHandler from '../utils/DomHandler';
+import ObjectUtils from '../utils/ObjectUtils.js';
+import DomHandler from '../utils/DomHandler.js';
 import TreeTableColumnSlot from './TreeTableColumnSlot.vue';
-import Ripple from '../ripple/Ripple';
+import Ripple from '../ripple/Ripple.vue';
 
 export default {
     name: 'sub-ttnode',

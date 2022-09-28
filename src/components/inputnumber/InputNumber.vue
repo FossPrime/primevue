@@ -12,8 +12,8 @@
 </template>
 
 <script>
-import InputText from '../inputtext/InputText';
-import Button from '../button/Button';
+import InputText from '../inputtext/InputText.vue';
+import Button from '../button/Button.vue';
 
 export default {
     inheritAttrs: false,

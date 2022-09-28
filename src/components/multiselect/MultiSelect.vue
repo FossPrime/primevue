@@ -66,10 +66,10 @@
 </template>
 
 <script>
-import ConnectedOverlayScrollHandler from '../utils/ConnectedOverlayScrollHandler';
-import ObjectUtils from '../utils/ObjectUtils';
-import DomHandler from '../utils/DomHandler';
-import Ripple from '../ripple/Ripple';
+import ConnectedOverlayScrollHandler from '../utils/ConnectedOverlayScrollHandler.js';
+import ObjectUtils from '../utils/ObjectUtils.js';
+import DomHandler from '../utils/DomHandler.js';
+import Ripple from '../ripple/Ripple.vue';
 
 export default {
     props: {

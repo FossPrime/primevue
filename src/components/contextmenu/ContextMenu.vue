@@ -7,7 +7,7 @@
 </template>
 
 <script>
-import DomHandler from '../utils/DomHandler';
+import DomHandler from '../utils/DomHandler.js';
 import ContextMenuSub from './ContextMenuSub.vue';
 
 export default {
