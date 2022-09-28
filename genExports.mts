@@ -27,6 +27,10 @@ optional: Customize the TROOT to match destination paths.
 0. add `"./resources/*": "./dist/resources/*",` to exports
 0. Fixup .npmignore to include dist
 
+# Other problems
+- Full calendar is not ESM
+- Chart 2.7 is not ESM
+
 */
 
 import { readdir, readFile, writeFile } from 'node:fs/promises'
