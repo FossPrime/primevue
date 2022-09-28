@@ -41,7 +41,7 @@
 </template>
 <script>
 import ObjectUtils from '../utils/ObjectUtils';
-import Paginator from '../paginator/Paginator';
+import Paginator from '../paginator/Paginator.vue';
 
 export default {
     props: {

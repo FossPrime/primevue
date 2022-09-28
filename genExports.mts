@@ -16,11 +16,12 @@ optional: Customize the TROOT to match destination paths.
 
 # Bonus
 
-1. With Code find `(import .* '\./)([A-Z][A-z]*)'` and replace it with `$1$2.vue'`
-2. build the css and export that too
-3. run `npx gulp build-resources`
-4. add `"./resources/*": "./dist/resources/*",` to exports
-5. Fixup .npmignore to include dist
+1. Add `.js` extensions to ToastService.js and all js files in `/utils`. 
+2. With Code find `(import .* '\./)([A-Z][A-z]*)'` and replace it with `$1$2.vue'`
+3. build the css and export that too
+4. run `npx gulp build-resources`
+5. add `"./resources/*": "./dist/resources/*",` to exports
+6. Fixup .npmignore to include dist
 
 */
 

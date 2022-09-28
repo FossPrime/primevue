@@ -75,14 +75,14 @@
 </template>
 
 <script>
-import ObjectUtils from '../utils/ObjectUtils';
-import DomHandler from '../utils/DomHandler';
-import FilterService from '../api/FilterService';
+import ObjectUtils from '../utils/ObjectUtils.js';
+import DomHandler from '../utils/DomHandler.js';
+import FilterService from '../api/FilterService.js';
 import TreeTableColumnSlot from './TreeTableColumnSlot.vue';
 import TreeTableRowLoader from './TreeTableRowLoader.vue';
 import FooterCell from './FooterCell.vue';
 import HeaderCell from './HeaderCell.vue';
-import Paginator from '../paginator/Paginator';
+import Paginator from '../paginator/Paginator.vue';
 
 export default {
     props: {
