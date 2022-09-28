@@ -36,33 +36,49 @@ optional: Customize the TROOT to match destination paths.
 import { readdir, readFile, writeFile } from 'node:fs/promises'
 import { resolve, relative } from 'node:path'
 
+const APPEND_EXPORTS =[
+  ["./config", {
+    "types": "./src/components/config/PrimeVue.d.ts",
+    "default": "./src/components/config/PrimeVue.vue"
+  }],
+  ["./resources/*", "./dist/resources/*",]
+]
 const PKG_JSON = 'package.json'
 const CROOT = 'src/components'
 const TROOT = '.' // targets will be relative to this
 
-const forceInclude = ['nuxt/index.js', 'config/PrimeVue.vue']
+const forceInclude = ['nuxt/index.js']
 const exclude = ['nuxt', 'config', 'common']
 const componentDirsRaw = await readdir(CROOT)
 const componentDirs = componentDirsRaw.filter(c => !exclude.includes(c))
 const nComponentsExcluded = componentDirsRaw.length - componentDirs.length
-const componentDirs2 = []
-const componentDirs3 = []
+const componentDirs2 = Array()
+const componentDirs3 = Array()
 
-const vueComponents = []
-const jsComponents = []
-const forcedComponents = []
-const componentsFound = []
+const vueComponents = Array()
+const jsComponents = Array()
+const forcedComponents = Array()
+const componentsFound = Array()
 
-// ls.filter(f => f.endsWith('.vue'))
+const getETPath = (file: string) => './' + relative(TROOT, file)
 
 for (const cDir of componentDirs) {
   const files = await readdir(CROOT + '/' + cDir)
   for (const f of files) {
     const a = f.split('.')
-    if (a.at(-1) === 'vue' && a.at(-2)?.toLowerCase() === cDir) {
+    const baseName = a.at(-2) || ''
+    if (a.at(-1) === 'vue' && baseName.toLowerCase()  === cDir) {
       const file = resolve(`${CROOT}/${cDir}/${f}`)
-      vueComponents.push(file)
       componentsFound.push(cDir)
+      if (files.includes(baseName + '.d.ts')) { // TS
+        const tsDef = resolve(`${CROOT}/${cDir}/${baseName}.d.ts`)
+        vueComponents.push({
+          types: getETPath(tsDef),
+          default: getETPath(file)
+        })
+      } else {
+        vueComponents.push(getETPath(file))
+      }
       break
     } else if (files.at(-1) === f) { // last one
       componentDirs2.push(cDir)
@@ -74,10 +90,19 @@ for (const jsDir of componentDirs2) {
   const files = await readdir(CROOT + '/' + jsDir)
   for (const f of files) {
     const a = f.split('.')
-    if (a.at(-1) === 'js' && a.at(-2)?.toLowerCase() === jsDir) {
+    const baseName = a.at(-2) || ''
+    if (a.at(-1) === 'js' && baseName.toLowerCase() === jsDir) {
       const file = resolve(`${CROOT}/${jsDir}/${f}`)
-      jsComponents.push(file)
       componentsFound.push(jsDir)
+      if (files.includes(baseName + '.d.ts')) { // TS
+        const tsDef = resolve(`${CROOT}/${jsDir}/${baseName}.d.ts`)
+        jsComponents.push({
+          types: getETPath(tsDef),
+          default: getETPath(file)
+        })
+      } else {
+        jsComponents.push(getETPath(file))
+      }
       break
     } else if (files.at(-1) === f) { // last one
       componentDirs3.push(jsDir)
@@ -87,7 +112,7 @@ for (const jsDir of componentDirs2) {
 
 for (const fPath of forceInclude) {
   const file = resolve(`${CROOT}/${fPath}`)
-  forcedComponents.push(file)
+  forcedComponents.push(getETPath(file))
 }
 
 // Report
@@ -109,11 +134,10 @@ if (nComponentsFound !== componentDirsRaw.length) {
 }
 
 const exportsArr = [...vueComponents, ...jsComponents, ...forcedComponents].map(v => {
-  const linkName = './' + relative(CROOT, v).split('/').at(0)
-  const target = './' + relative(TROOT, v)
-  return [linkName, target]
+  const linkName = './' + relative(CROOT, v.default || v).split('/').at(0)
+  return [linkName, v]
 })
-const exports = Object.fromEntries(exportsArr)
+const exports = Object.fromEntries(exportsArr.concat(APPEND_EXPORTS))
 const pkgRaw = await readFile(PKG_JSON, 'utf8')
 const pkg = JSON.parse(pkgRaw)
 pkg.exports = exports
