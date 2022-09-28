@@ -32,7 +32,7 @@
 </template>
 
 <script>
-import OverlayEventBus from '../overlayeventbus/OverlayEventBus.vue';
+import OverlayEventBus from '../overlayeventbus/OverlayEventBus.js';
 import DomHandler from '../utils/DomHandler.js';
 import ObjectUtils from '../utils/ObjectUtils.js';
 import ColumnSlot from './ColumnSlot.vue';
