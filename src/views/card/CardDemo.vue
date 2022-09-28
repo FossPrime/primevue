@@ -44,7 +44,7 @@
 </template>
 
 <script>
-import CardDoc from './CardDoc';
+import CardDoc from './CardDoc.vue';
 
 export default {
     components: {

@@ -36,7 +36,7 @@
 
 <script>
 import CountryService from '../../service/CountryService';
-import AutoCompleteDoc from './AutoCompleteDoc';
+import AutoCompleteDoc from './AutoCompleteDoc.vue';
 
 export default {
     data() {

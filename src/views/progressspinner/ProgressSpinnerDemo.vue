@@ -22,7 +22,7 @@
 </template>
 
 <script>
-import ProgressSpinnerDoc from './ProgressSpinnerDoc';
+import ProgressSpinnerDoc from './ProgressSpinnerDoc.vue';
 
 export default {
     components: {

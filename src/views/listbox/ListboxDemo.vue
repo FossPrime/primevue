@@ -30,7 +30,7 @@
 </template>
 
 <script>
-import ListboxDoc from './ListboxDoc';
+import ListboxDoc from './ListboxDoc.vue';
 
 export default {
     data() {

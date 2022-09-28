@@ -39,7 +39,7 @@
     </div>
 </template>
 <script>
-import OrganizationChartDoc from './OrganizationChartDoc';
+import OrganizationChartDoc from './OrganizationChartDoc.vue';
 
 export default {
     data() {

@@ -23,7 +23,7 @@
 </template>
 
 <script>
-import TieredMenuDoc from './TieredMenuDoc';
+import TieredMenuDoc from './TieredMenuDoc.vue';
 
 export default {
     data() {

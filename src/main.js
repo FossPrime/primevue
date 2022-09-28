@@ -1,6 +1,6 @@
 import Vue from 'vue';
 import App from './App.vue';
-import router from './router';
+import router from './router.vue';
 import PrimeVue from './components/config/PrimeVue';
 import AutoComplete from './components/autocomplete/AutoComplete';
 import Accordion from './components/accordion/Accordion';
@@ -97,7 +97,7 @@ import ToggleButton from './components/togglebutton/ToggleButton';
 import TriStateCheckbox from './components/tristatecheckbox/TriStateCheckbox';
 import Galleria from './components/galleria/Galleria';
 
-import AppInputStyleSwitch from './AppInputStyleSwitch';
+import AppInputStyleSwitch from './AppInputStyleSwitch.vue';
 import CodeHighlight from './views/codehighlight/CodeHighlight';
 
 import './assets/styles/primevue.css';

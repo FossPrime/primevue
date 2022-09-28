@@ -25,7 +25,7 @@
 </template>
 
 <script>
-import ProgressBarDoc from './ProgressBarDoc';
+import ProgressBarDoc from './ProgressBarDoc.vue';
 
 export default {
     data() {

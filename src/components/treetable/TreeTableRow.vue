@@ -21,7 +21,7 @@
 <script>
 import ObjectUtils from '../utils/ObjectUtils';
 import DomHandler from '../utils/DomHandler';
-import TreeTableColumnSlot from './TreeTableColumnSlot';
+import TreeTableColumnSlot from './TreeTableColumnSlot.vue';
 import Ripple from '../ripple/Ripple';
 
 export default {

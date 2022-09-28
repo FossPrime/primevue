@@ -30,7 +30,7 @@
 </template>
 
 <script>
-import EditorDoc from './EditorDoc';
+import EditorDoc from './EditorDoc.vue';
 
 export default {
     data() {

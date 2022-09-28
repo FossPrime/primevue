@@ -9,7 +9,7 @@
 </template>
 
 <script>
-import ColumnSlot from './ColumnSlot';
+import ColumnSlot from './ColumnSlot.vue';
 
 export default {
     props: {

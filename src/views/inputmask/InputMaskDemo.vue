@@ -49,7 +49,7 @@
 </template>
 
 <script>
-import InputMaskDoc from './InputMaskDoc';
+import InputMaskDoc from './InputMaskDoc.vue';
 
 export default {
     data() {

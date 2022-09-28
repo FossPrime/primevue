@@ -14,6 +14,14 @@ optional: Customize the TROOT to match destination paths.
 3. Results will be inside PKG_JSON, in the excludes field.
 
 
+# Bonus
+
+1. With Code find `(import .* '\./)([A-Z][A-z]*)'` and replace it with `$1$2.vue'`
+2. build the css and export that too
+3. run `npx gulp build-resources`
+4. add `"./resources/*": "./dist/resources/*",` to exports
+5. Fixup .npmignore to include dist
+
 */
 
 import { readdir, readFile, writeFile } from 'node:fs/promises'

@@ -64,7 +64,7 @@
 </template>
 
 <script>
-import SplitterDoc from './SplitterDoc';
+import SplitterDoc from './SplitterDoc.vue';
 export default {
     components: {
         'SplitterDoc': SplitterDoc

@@ -55,7 +55,7 @@
 </template>
 
 <script>
-import KnobDoc from './KnobDoc';
+import KnobDoc from './KnobDoc.vue';
 export default {
     data() {
         return {

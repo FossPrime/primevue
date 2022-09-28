@@ -43,7 +43,7 @@
 </template>
 
 <script>
-import PasswordDoc from './PasswordDoc';
+import PasswordDoc from './PasswordDoc.vue';
 
 export default {
     data() {

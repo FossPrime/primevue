@@ -29,7 +29,7 @@
 </template>
 
 <script>
-import LineChartDoc from './LineChartDoc';
+import LineChartDoc from './LineChartDoc.vue';
 import EventBus from '@/EventBus';
 
 export default {

@@ -64,7 +64,7 @@
 </template>
 
 <script>
-import MessageDoc from './MessageDoc';
+import MessageDoc from './MessageDoc.vue';
 
 export default {
     data() {

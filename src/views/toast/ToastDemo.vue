@@ -57,7 +57,7 @@
 </template>
 
 <script>
-import ToastDoc from './ToastDoc';
+import ToastDoc from './ToastDoc.vue';
 
 export default {
     data() {

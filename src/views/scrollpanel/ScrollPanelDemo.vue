@@ -69,7 +69,7 @@
     </div>
 </template>
 <script>
-import ScrollPanelDoc from './ScrollPanelDoc';
+import ScrollPanelDoc from './ScrollPanelDoc.vue';
 
 export default {
     components: {

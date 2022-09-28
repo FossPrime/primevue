@@ -41,7 +41,7 @@
 </template>
 
 <script>
-import ConfirmDialogDoc from './ConfirmDialogDoc';
+import ConfirmDialogDoc from './ConfirmDialogDoc.vue';
 export default {
     methods: {
         confirm1() {

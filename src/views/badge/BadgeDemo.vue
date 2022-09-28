@@ -37,7 +37,7 @@
 </template>
 
 <script>
-import BadgeDoc from './BadgeDoc';
+import BadgeDoc from './BadgeDoc.vue';
 
 export default {
     data() {

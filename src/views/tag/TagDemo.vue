@@ -37,7 +37,7 @@
 </template>
 
 <script>
-import TagDoc from './TagDoc';
+import TagDoc from './TagDoc.vue';
 export default {
 	components: {
 		'TagDoc': TagDoc

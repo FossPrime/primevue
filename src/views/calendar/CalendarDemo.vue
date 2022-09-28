@@ -89,7 +89,7 @@
 </template>
 
 <script>
-import CalendarDoc from './CalendarDoc'
+import CalendarDoc from './CalendarDoc.vue'
 
 export default {
     created() {

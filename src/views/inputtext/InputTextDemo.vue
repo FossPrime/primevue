@@ -63,7 +63,7 @@
 </template>
 
 <script>
-import InputTextDoc from './InputTextDoc';
+import InputTextDoc from './InputTextDoc.vue';
 
 export default {
     data() {

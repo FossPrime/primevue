@@ -19,7 +19,7 @@
 </template>
 
 <script>
-import ContextMenuDoc from './ContextMenuDoc';
+import ContextMenuDoc from './ContextMenuDoc.vue';
 
 export default {
     data() {

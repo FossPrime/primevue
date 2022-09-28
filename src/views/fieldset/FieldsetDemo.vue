@@ -32,7 +32,7 @@
 </template>
 
 <script>
-import FieldsetDoc from './FieldsetDoc';
+import FieldsetDoc from './FieldsetDoc.vue';
 
 export default {
     data() {

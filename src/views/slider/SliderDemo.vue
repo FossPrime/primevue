@@ -36,7 +36,7 @@
 </template>
 
 <script>
-import SliderDoc from './SliderDoc';
+import SliderDoc from './SliderDoc.vue';
 
 export default {
     data() {

@@ -22,7 +22,7 @@
 </template>
 
 <script>
-import ToggleButtonDoc from './ToggleButtonDoc';
+import ToggleButtonDoc from './ToggleButtonDoc.vue';
 
 export default {
     data() {

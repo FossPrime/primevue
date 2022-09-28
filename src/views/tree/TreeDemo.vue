@@ -26,7 +26,7 @@
 </template>
 <script>
 import NodeService from '../../service/NodeService';
-import TreeDoc from './TreeDoc';
+import TreeDoc from './TreeDoc.vue';
 
 export default {
     data() {

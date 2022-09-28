@@ -26,7 +26,7 @@
 </template>
 
 <script>
-import GalleriaItemSlot from './GalleriaItemSlot';
+import GalleriaItemSlot from './GalleriaItemSlot.vue';
 import Ripple from '../ripple/Ripple';
 
 export default {

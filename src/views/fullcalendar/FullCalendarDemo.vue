@@ -22,7 +22,7 @@ import EventService from '../../service/EventService';
 import dayGridPlugin from '@fullcalendar/daygrid';
 import timeGridPlugin from '@fullcalendar/timegrid';
 import interactionPlugin from '@fullcalendar/interaction';
-import FullCalendarDoc from './FullCalendarDoc';
+import FullCalendarDoc from './FullCalendarDoc.vue';
 
 export default {
     data() {

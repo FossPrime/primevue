@@ -34,7 +34,7 @@
 </template>
 
 <script>
-import CascadeSelectDoc from './CascadeSelectDoc';
+import CascadeSelectDoc from './CascadeSelectDoc.vue';
 export default {
     data() {
         return {

@@ -100,7 +100,7 @@
 </template>
 
 <script>
-import AvatarDoc from './AvatarDoc';
+import AvatarDoc from './AvatarDoc.vue';
 export default {
     components: {
         'AvatarDoc': AvatarDoc

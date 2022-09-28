@@ -19,7 +19,7 @@
 </template>
 
 <script>
-import TerminalDoc from './TerminalDoc';
+import TerminalDoc from './TerminalDoc.vue';
 import TerminalService from '../../components/terminalservice/TerminalService';
 
 export default {

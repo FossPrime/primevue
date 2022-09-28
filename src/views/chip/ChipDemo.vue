@@ -49,7 +49,7 @@
 </template>
 
 <script>
-import ChipDoc from './ChipDoc';
+import ChipDoc from './ChipDoc.vue';
 export default {
     components: {
         'ChipDoc': ChipDoc

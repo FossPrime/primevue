@@ -26,7 +26,7 @@
 
 <script>
 import PhotoService from '../../service/PhotoService';
-import GalleriaDoc from './GalleriaDoc';
+import GalleriaDoc from './GalleriaDoc.vue';
 
 export default {
     data() {

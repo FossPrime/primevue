@@ -116,7 +116,7 @@
 </template>
 
 <script>
-import DialogDoc from './DialogDoc';
+import DialogDoc from './DialogDoc.vue';
 
 export default {
     data() {

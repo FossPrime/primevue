@@ -38,7 +38,7 @@
 </template>
 
 <script>
-import OrderListDoc from './OrderListDoc';
+import OrderListDoc from './OrderListDoc.vue';
 import ProductService from '../../service/ProductService';
 
 export default {

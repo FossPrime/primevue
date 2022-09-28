@@ -29,7 +29,7 @@
 </template>
 
 <script>
-import FileUploadDoc from './FileUploadDoc';
+import FileUploadDoc from './FileUploadDoc.vue';
 
 export default {
     methods: {

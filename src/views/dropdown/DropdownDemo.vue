@@ -42,7 +42,7 @@
 </template>
 
 <script>
-import DropdownDoc from './DropdownDoc';
+import DropdownDoc from './DropdownDoc.vue';
 
 export default {
     data() {

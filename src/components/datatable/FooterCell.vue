@@ -7,7 +7,7 @@
 </template>
 
 <script>
-import ColumnSlot from './ColumnSlot';
+import ColumnSlot from './ColumnSlot.vue';
 import DomHandler from '../utils/DomHandler';
 import ObjectUtils from '../utils/ObjectUtils';
 

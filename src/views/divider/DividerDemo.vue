@@ -152,7 +152,7 @@
 </template>
 
 <script>
-import DividerDoc from './DividerDoc';
+import DividerDoc from './DividerDoc.vue';
 export default {
     components: {
         'DividerDoc': DividerDoc

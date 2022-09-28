@@ -1,10 +1,14 @@
 node_modules
 public
-/dist
 exports
+
+/api-generator
+/src/*.vue
+/src/*.js
 /src/views
 /src/service
 /src/assets
+
 tests
 .browserslistrc
 .eslintrc.js

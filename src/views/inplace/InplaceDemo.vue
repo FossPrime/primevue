@@ -53,7 +53,7 @@
 
 <script>
 import ProductService from '../../service/ProductService';
-import InplaceDoc from './InplaceDoc';
+import InplaceDoc from './InplaceDoc.vue';
 
 export default {
      data() {

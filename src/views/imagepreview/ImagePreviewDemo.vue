@@ -22,7 +22,7 @@
 </template>
 
 <script>
-import ImagePreviewDoc from './ImagePreviewDoc';
+import ImagePreviewDoc from './ImagePreviewDoc.vue';
 export default {
 	components: {
 		'ImagePreviewDoc': ImagePreviewDoc

@@ -18,7 +18,7 @@
 </template>
 
 <script>
-import PolarAreaChartDoc from './PolarAreaChartDoc';
+import PolarAreaChartDoc from './PolarAreaChartDoc.vue';
 import EventBus from '@/EventBus';
 
 export default {

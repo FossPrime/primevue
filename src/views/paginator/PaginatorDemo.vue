@@ -34,7 +34,7 @@
 </template>
 
 <script>
-import PaginatorDoc from './PaginatorDoc';
+import PaginatorDoc from './PaginatorDoc.vue';
 
 export default {
     data() {

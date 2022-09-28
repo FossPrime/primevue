@@ -1,5 +1,5 @@
 <script>
-import TreeTableRow from './TreeTableRow';
+import TreeTableRow from './TreeTableRow.vue';
 
 const TreeTableRowLoader = {
     functional: true,

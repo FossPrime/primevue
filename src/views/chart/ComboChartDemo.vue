@@ -18,7 +18,7 @@
 </template>
 
 <script>
-import ComboChartDoc from './ComboChartDoc';
+import ComboChartDoc from './ComboChartDoc.vue';
 import EventBus from '@/EventBus';
 
 export default {

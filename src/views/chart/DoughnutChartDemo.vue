@@ -18,7 +18,7 @@
 </template>
 
 <script>
-import DoughnutChartDoc from './DoughnutChartDoc';
+import DoughnutChartDoc from './DoughnutChartDoc.vue';
 import EventBus from '@/EventBus';
 
 export default {

@@ -42,7 +42,7 @@
 </template>
 
 <script>
-import MultiSelectDoc from './MultiSelectDoc';
+import MultiSelectDoc from './MultiSelectDoc.vue';
 
 export default {
     data() {

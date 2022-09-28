@@ -38,7 +38,7 @@
 </template>
 
 <script>
-import ScrollTopDoc from './ScrollTopDoc';
+import ScrollTopDoc from './ScrollTopDoc.vue';
 export default {
     components: {
         'ScrollTopDoc': ScrollTopDoc

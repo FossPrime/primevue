@@ -22,7 +22,7 @@
 </template>
 
 <script>
-import InputSwitchDoc from './InputSwitchDoc';
+import InputSwitchDoc from './InputSwitchDoc.vue';
 
 export default {
     data() {

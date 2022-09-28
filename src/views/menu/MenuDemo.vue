@@ -23,7 +23,7 @@
 </template>
 
 <script>
-import MenuDoc from './MenuDoc';
+import MenuDoc from './MenuDoc.vue';
 
 export default {
     data() {

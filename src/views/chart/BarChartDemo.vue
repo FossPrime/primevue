@@ -34,7 +34,7 @@
 </template>
 
 <script>
-import BarChartDoc from './BarChartDoc';
+import BarChartDoc from './BarChartDoc.vue';
 import EventBus from '@/EventBus';
 
 export default {

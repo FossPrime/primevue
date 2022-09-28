@@ -1,4 +1,4 @@
-import ToastEventBus from './ToastEventBus';
+import ToastEventBus from './ToastEventBus.vue';
 
 const ToastService = {
 

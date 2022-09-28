@@ -18,7 +18,7 @@
 </template>
 
 <script>
-import RadarChartDoc from './RadarChartDoc';
+import RadarChartDoc from './RadarChartDoc.vue';
 import EventBus from '@/EventBus';
 
 export default {

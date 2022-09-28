@@ -31,7 +31,7 @@
 </template>
 
 <script>
-import TabMenuDoc from './TabMenuDoc';
+import TabMenuDoc from './TabMenuDoc.vue';
 
 export default {
     data() {

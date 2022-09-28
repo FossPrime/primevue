@@ -18,7 +18,7 @@
 </template>
 
 <script>
-import PanelMenuDoc from './PanelMenuDoc';
+import PanelMenuDoc from './PanelMenuDoc.vue';
 
 export default {
     data() {

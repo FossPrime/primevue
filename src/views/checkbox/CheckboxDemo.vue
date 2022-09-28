@@ -47,7 +47,7 @@
 </template>
 
 <script>
-import CheckboxDoc from './CheckboxDoc';
+import CheckboxDoc from './CheckboxDoc.vue';
 
 export default {
     data() {

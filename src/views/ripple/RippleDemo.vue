@@ -21,7 +21,7 @@
 </template>
 
 <script>
-import RippleDoc from './RippleDoc';
+import RippleDoc from './RippleDoc.vue';
 
 export default {
 	components: {

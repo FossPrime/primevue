@@ -18,7 +18,7 @@
 </template>
 
 <script>
-import BreadcrumbDoc from './BreadcrumbDoc';
+import BreadcrumbDoc from './BreadcrumbDoc.vue';
 
 export default {
     data() {

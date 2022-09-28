@@ -45,7 +45,7 @@
 
 <script>
 import NodeService from '../../service/NodeService';
-import TreeTableDoc from './TreeTableDoc';
+import TreeTableDoc from './TreeTableDoc.vue';
 
 export default {
     data() {

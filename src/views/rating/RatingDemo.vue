@@ -28,7 +28,7 @@
 </template>
 
 <script>
-import RatingDoc from './RatingDoc';
+import RatingDoc from './RatingDoc.vue';
 
 export default {
     data() {

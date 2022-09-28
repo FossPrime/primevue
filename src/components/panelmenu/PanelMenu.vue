@@ -30,7 +30,7 @@
 </template>
 
 <script>
-import PanelMenuSub from './PanelMenuSub';
+import PanelMenuSub from './PanelMenuSub.vue';
 import UniqueComponentId from '../utils/UniqueComponentId';
 
 export default {

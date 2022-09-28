@@ -26,7 +26,7 @@
 </template>
 
 <script>
-import TextareaDoc from './TextareaDoc'
+import TextareaDoc from './TextareaDoc.vue'
 
 export default {
     data() {

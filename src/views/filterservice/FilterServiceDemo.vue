@@ -50,7 +50,7 @@
 import FilterMatchMode from '../../../src/components/api/FilterMatchMode';
 import FilterService from '../../../src/components/api/FilterService';
 import CustomerService from '../../service/CustomerService';
-import FilterServiceDoc from './FilterServiceDoc';
+import FilterServiceDoc from './FilterServiceDoc.vue';
 
 const YOUR_FILTER = 'YOUR FILTER';
 

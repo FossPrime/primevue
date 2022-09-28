@@ -35,7 +35,7 @@
 
 <script>
 import ProductService from '../../service/ProductService';
-import OverlayPanelDoc from './OverlayPanelDoc';
+import OverlayPanelDoc from './OverlayPanelDoc.vue';
 
 export default {
     data() {

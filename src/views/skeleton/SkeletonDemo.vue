@@ -145,7 +145,7 @@
 </template>
 
 <script>
-import SkeletonDoc from './SkeletonDoc';
+import SkeletonDoc from './SkeletonDoc.vue';
 export default {
     data() {
         return {

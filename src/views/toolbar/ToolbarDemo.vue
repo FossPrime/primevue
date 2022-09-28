@@ -28,7 +28,7 @@
     </div>
 </template>
 <script>
-import ToolbarDoc from './ToolbarDoc';
+import ToolbarDoc from './ToolbarDoc.vue';
 
 export default {
     data() {

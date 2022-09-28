@@ -41,7 +41,7 @@
 </template>
 
 <script>
-import PickListDoc from './PickListDoc';
+import PickListDoc from './PickListDoc.vue';
 import ProductService from '../../service/ProductService';
 
 export default {

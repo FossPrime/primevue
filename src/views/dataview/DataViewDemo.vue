@@ -73,7 +73,7 @@
 
 <script>
 import ProductService from '../../service/ProductService';
-import DataViewDoc from './DataViewDoc';
+import DataViewDoc from './DataViewDoc.vue';
 
 export default {
     data() {

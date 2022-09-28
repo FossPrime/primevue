@@ -21,7 +21,7 @@
 </template>
 
 <script>
-import ConfirmPopupDoc from './ConfirmPopupDoc';
+import ConfirmPopupDoc from './ConfirmPopupDoc.vue';
 export default {
     methods: {
         confirm1(event) {

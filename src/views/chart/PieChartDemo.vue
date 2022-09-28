@@ -18,7 +18,7 @@
 </template>
 
 <script>
-import PieChartDoc from './PieChartDoc';
+import PieChartDoc from './PieChartDoc.vue';
 import EventBus from '@/EventBus';
 
 export default {

@@ -41,7 +41,7 @@
 </template>
 
 <script>
-import RadioButtonDoc from './RadioButtonDoc';
+import RadioButtonDoc from './RadioButtonDoc.vue';
 
 export default {
     data() {

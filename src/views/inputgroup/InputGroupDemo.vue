@@ -120,7 +120,7 @@
 </template>
 
 <script>
-import InputGroupDoc from './InputGroupDoc';
+import InputGroupDoc from './InputGroupDoc.vue';
 
 export default {
     data() {

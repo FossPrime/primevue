@@ -134,7 +134,7 @@
 </template>
 
 <script>
-import ButtonDoc from './ButtonDoc'
+import ButtonDoc from './ButtonDoc.vue'
 
 export default {
     data() {

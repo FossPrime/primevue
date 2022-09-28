@@ -7,7 +7,7 @@
 </template>
 
 <script>
-import OrganizationChartNode from './OrganizationChartNode';
+import OrganizationChartNode from './OrganizationChartNode.vue';
 
 export default {
     props: {

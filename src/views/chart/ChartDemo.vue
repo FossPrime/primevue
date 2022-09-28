@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import ChartDoc from './ChartDoc';
+import ChartDoc from './ChartDoc.vue';
 
 export default {
     components: {

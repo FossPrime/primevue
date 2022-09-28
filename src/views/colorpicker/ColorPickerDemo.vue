@@ -22,7 +22,7 @@
 </template>
 
 <script>
-import ColorPickerDoc from './ColorPickerDoc';
+import ColorPickerDoc from './ColorPickerDoc.vue';
 
 export default {
     data() {

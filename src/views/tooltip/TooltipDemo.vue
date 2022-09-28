@@ -38,7 +38,7 @@
 </template>
 
 <script>
-import TooltipDoc from './TooltipDoc';
+import TooltipDoc from './TooltipDoc.vue';
 
 export default {
 	components: {

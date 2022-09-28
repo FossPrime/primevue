@@ -33,7 +33,7 @@
 </template>
 
 <script>
-import ChipsDoc from './ChipsDoc';
+import ChipsDoc from './ChipsDoc.vue';
 
 export default {
     data() {

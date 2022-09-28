@@ -35,7 +35,7 @@
     </div>
 </template>
 <script>
-import PanelDoc from './PanelDoc';
+import PanelDoc from './PanelDoc.vue';
 
 export default {
     data() {

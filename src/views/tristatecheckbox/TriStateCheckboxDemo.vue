@@ -22,7 +22,7 @@
 </template>
 
 <script>
-import TriStateCheckboxDoc from './TriStateCheckboxDoc';
+import TriStateCheckboxDoc from './TriStateCheckboxDoc.vue';
 
 export default {
     data() {

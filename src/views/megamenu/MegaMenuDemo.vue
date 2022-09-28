@@ -22,7 +22,7 @@
 </template>
 
 <script>
-import MegaMenuDoc from './MegaMenuDoc';
+import MegaMenuDoc from './MegaMenuDoc.vue';
 
 export default {
     data() {

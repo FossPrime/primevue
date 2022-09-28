@@ -120,7 +120,7 @@
 </template>
 
 <script>
-import AccordionDoc from './AccordionDoc';
+import AccordionDoc from './AccordionDoc.vue';
 
 export default {
     data() {

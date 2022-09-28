@@ -34,7 +34,7 @@
 </template>
 
 <script>
-import BlockUIDoc from './BlockUIDoc';
+import BlockUIDoc from './BlockUIDoc.vue';
 
 export default {
     data() {

@@ -62,7 +62,7 @@
 </template>
 
 <script>
-import SpeedDialDoc from './SpeedDialDoc';
+import SpeedDialDoc from './SpeedDialDoc.vue';
 export default {
     data() {
         return {

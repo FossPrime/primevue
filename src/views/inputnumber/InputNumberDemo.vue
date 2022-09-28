@@ -118,7 +118,7 @@
 </template>
 
 <script>
-import InputNumberDoc from './InputNumberDoc';
+import InputNumberDoc from './InputNumberDoc.vue';
 
 export default {
     data() {

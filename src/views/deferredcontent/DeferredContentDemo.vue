@@ -37,7 +37,7 @@
 
 <script>
 import ProductService from '../../service/ProductService';
-import DeferredContentDoc from './DeferredContentDoc';
+import DeferredContentDoc from './DeferredContentDoc.vue';
 
 export default {
     data() {
