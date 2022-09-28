@@ -1,7 +1,7 @@
-import ConnectedOverlayScrollHandler from './ConnectedOverlayScrollHandler.vue';
-import DomHandler from './DomHandler.vue';
-import ObjectUtils from './ObjectUtils.vue';
-import UniqueComponentId from './UniqueComponentId.vue';
-import EventBus from './EventBus.vue';
+import ConnectedOverlayScrollHandler from './ConnectedOverlayScrollHandler.js';
+import DomHandler from './DomHandler.js';
+import ObjectUtils from './ObjectUtils.js';
+import UniqueComponentId from './UniqueComponentId.js';
+import EventBus from './EventBus.js';
 
 export {ConnectedOverlayScrollHandler,DomHandler,ObjectUtils,UniqueComponentId,EventBus};

@@ -1,4 +1,4 @@
-import DomHandler from './DomHandler.vue';
+import DomHandler from './DomHandler.js';
 
 export default class ConnectedOverlayScrollHandler {
 
